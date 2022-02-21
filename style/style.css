@@ -1,0 +1,499 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto slab';
+}
+
+.box-1 {
+    border: 1px solid white;
+    background-color: white;
+    margin-top: 100px;
+    width: 30%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 20px dimgray;
+    padding: 30px;
+    height: 700px;
+    position: absolute;
+    top: -50px;
+    right: 15%;
+}
+
+.box-2 {
+    display: relative;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    justify-content: center;
+    height: 90%;
+}
+
+
+.box-2 div {
+    display: inline-block;
+    width: 20%;
+    justify-content: center;
+    margin-left: 4%;
+    background-color: white;
+    box-sizing: content-box;
+    box-shadow: 1px 1px 10px dimgray;
+    height: 70%;
+}
+
+.box-2 h2 {
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box-2 img {
+    border: 0 solid black;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 15px;
+    filter: grayscale(70%);
+    z-index: 1;
+
+}
+
+.box-2 img:hover {
+    filter: none;
+}
+
+#parag {
+    position: absolute;
+    top: 300px;
+    left: 41%;
+    bottom: 0;
+    font-size: 4em;
+    color: white;
+    text-shadow: -1px 1px 4px gray;
+}
+
+footer {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    top: 3000px;
+    z-index: 999;
+}
+
+.menu-bar {
+    border: 0px solid black;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    box-shadow: 1px 1px 25px gray;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+
+}
+
+/* Second Menu variant */
+
+/*.menu {
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    left: 20%;
+    z-index: 5;
+}
+
+.menu-el {
+
+    color: white;
+    margin: 0;
+    height: 10px;
+    width: 30%;
+    text-align: center;
+    padding: 20px 33%;
+    box-shadow: 2px 0px 2px gray;
+    background-color: transparent;
+    cursor: pointer;
+
+
+}
+
+.menu-el:hover {
+    background-color: white;
+    color: black;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+
+}
+
+.drop-menu {
+    display: none;
+    background-color: black;
+    min-width: 90px;
+    width: 96%;
+}
+
+.drop-menu a {
+
+    color: white;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown:hover .drop-menu {
+
+    display: block;
+
+}
+
+.home {
+    width: 30%;
+
+}
+
+.contact {
+    width: 30%;
+    left: 29%;
+}
+
+.about {
+    width: 30%;
+    left: 58%;
+}
+
+.fb {
+    position: fixed;
+    right: 0.3%;
+    top: 10px;
+
+}
+
+.face {
+    height: 30px;
+    width: 30px;
+
+}
+
+.inst {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 0px;
+    right: 40px;
+}
+*/
+
+/* First block */
+
+.first_part {
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+}
+
+.first_bottom {
+    width: 100%;
+    position: absolute;
+    height: 35%;
+    bottom: 0;
+    padding: 30px 0;
+    background: white;
+}
+
+.line {
+    width: 100%;
+    height: 10%;
+    background: black;
+    opacity: 0.6;
+    position: absolute;
+    top: -40px;
+
+}
+
+.back-glass {
+    background-attachment: fixed;
+    background-image: url("bakal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 65%;
+}
+
+.second_part {
+    background-image: url("bottle.jpg");
+    filter: opacity(80%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+#text-1 h1 {
+    position: relative;
+    color: rgba(255, 255, 255);
+    top: 110px;
+    left: 7%;
+    z-index: 999;
+    font-size: 5em;
+    text-shadow: 2px 2px 5px dimgray;
+    width: 70%;
+
+
+}
+
+#text-1 h3 {
+    position: relative;
+    color: rgba(255, 255, 255);
+    top: 210px;
+    left: 60%;
+    text-shadow: 2px 2px 5px dimgray;
+    z-index: 999;
+    width: 40%;
+
+}
+
+
+
+
+
+/* .wine {
+    width: 100%;
+    height: 100%;
+    filter: brightness(70%);
+
+}
+
+
+/* Menu 2 */
+
+#line-bar {
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    z-index: 9999;
+    box-shadow: 0px -50px 70px silver;
+
+}
+
+#line-bar div {
+    position: relative;
+    height: 50px;
+    margin: 0 auto;
+    left: 50px;
+
+}
+
+#menu-bar li {
+    display: block;
+    float: left;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: white;
+    list-style: none;
+    height: 50px;
+    box-shadow: 5px -10px 10px rgba(105, 105, 105, 0.3);
+
+}
+
+#menu-bar li span {
+    position: absolute;
+    overflow: hidden;
+    display: none;
+    top: 50px;
+    background-color: black;
+
+}
+
+#menu-bar span a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 1.1em;
+    padding-left: 60px;
+
+}
+
+.font {
+    font-size: 1.3em;
+}
+
+#menu-bar li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+#menu-bar li:hover span {
+    display: block;
+
+
+}
+
+#menu-bar li:hover {
+    background: rgb(132, 13, 27);
+
+}
+
+.place1 {
+    position: absolute;
+    width: 170px;
+    left: -10px;
+
+}
+
+.place2 {
+    position: absolute;
+    width: 170px;
+    left: 143px;
+
+}
+
+.place3 {
+    position: absolute;
+    width: 170px;
+    left: 302px;
+
+}
+
+.place4 {
+    position: absolute;
+    width: 170px;
+    left: 466px;
+
+}
+
+#menu-bar span a:hover {
+    background-color: rgb(132, 13, 27);
+
+}
+
+/* Third block */
+
+#third-box {
+    position: relative;
+    top: 400px;
+    height: 1500px;
+    background-color: white;
+    z-index: 999;
+
+}
+
+#thirst-top {
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(132, 13, 27, 0.9);
+    z-index: 99;
+    top: 0px;
+    left: 0px;
+
+}
+
+#thirst-top div {
+    z-index: 999;
+    position: relative;
+
+}
+
+#thirst-top div::after {
+    content: url(logo3.png);
+    border: 130px solid transparent;
+    border-left: 220px solid #2D1B25;
+    box-shadow: 5px 5px 20px black;
+    position: absolute;
+    left: 0px;
+    bottom: -130px;
+
+}
+
+#stamp {
+    background-image: url("stamp.png");
+    background-repeat: no-repeat;
+    z-index: 99999;
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    top: -127px;
+}
+
+
+#third-box div h1,
+p {
+    position: absolute;
+    top: 220px;
+    max-width: 80%;
+    left: 10%;
+    z-index: 999;
+}
+
+#third-box div h1 {
+    position: absolute;
+    top: 180px;
+    left: 42%;
+
+}
+
+
+
+.container {
+    max-height: 450px;
+    display: flex;
+    width: 100%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    height: 100vh;
+    position: absolute;
+    top: 550px;
+}
+
+.box {
+    z-index: 99999;
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, .1);
+    line-height: 0;
+}
+
+.box>img {
+    width: 200%;
+    height: calc(100% - 10vh);
+    object-fit: cover;
+    transition: .5s;
+}
+
+.box>span {
+    font-size: 3.8vh;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 2.6;
+}
+
+.box:hover {
+    flex: 1 1 50%;
+}
+
+.box:hover>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+ 
+}
